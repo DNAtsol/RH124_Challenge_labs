@@ -1,0 +1,22 @@
+Challenges lab 7
+
+add users
+switch between users 
+do some commands in each
+
+
+redirect errors to error file (as well as to screen)?
+modify file to permissions and/or onwership so user student can edit file
+
+echo append text into this file
+change the name of file to include today's date in the yyyy-mm-dd format at the end of the file
+
+as root, show me running service states in each users's accounts
+show my the PID and PPID of the ssh service?
+(screenshot?) 
+
+
+
+
+
+
