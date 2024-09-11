@@ -1,0 +1,187 @@
+RH 124
+
+Challenge lab topics/ tasks
+
+Ch 1
+
+sequential commands with ; 
+require tab completion for success on task 
+writing long commands on multiple lines 
+using command history 
+requiring use of short cuts (e.g., ctrl+A, Ctrl+K, cd - )
+
+Ch 2
+
+require use of absolute or relative path when completing tasks
+ 
+mkdir -P
+rm -r 
+ls -l
+cp -r 
+
+soft and hard links
+    reference to files on differnt filesystem AND local dir to drive home the difference between hard and soft
+    
+chapter 3
+
+command line expansion
+tilde expansion
+brace expansion
+echo 
+use of variables and command substitution
+protect from expansion (" ' `)
+
+
+Ch 4
+
+force students to search for command options not directly covered in material
+
+chapter 5 
+
+redirect 
+    |
+    >
+    >>
+    tee 
+    
+    stdin
+    stout
+    sterr
+
+    /dev/null
+    value in learningmore complex versions? e.g.,  2>&1? 
+    
+    
+    vim editing
+    
+Chapter 6 
+
+shell environment
+bash aliases
+unset 
+
+chapter 6 
+
+config sudo 
+useradd 
+login.defs
+set passowrds 
+uid 
+
+groupadd
+tail
+groupmod 
+shadow file
+password aging
+chage 
+nologin shell 
+
+ch 7 
+
+permissions
+    file
+    dir
+    X 
+    octal
+    
+chown owner:group
+
+special permissions
+    u+s
+    g+s
+    o+t
+    0xxx
+
+umask
+    0022
+
+/etc/profile.d
+
+Chapter 8
+    processes
+        child processes
+        process states
+        listing processes
+    control 
+        sleep
+        jobs
+        fg
+        bg
+    process control
+        pgrep
+        pkill -SIGKILL
+        pgrep -l -u user
+        pstree
+        w
+    monitor processes 
+        lscpu
+        uptime
+
+Chapter 9 
+    control services and daemons
+    systemctl 
+        enable 
+        start
+    
+    
+chapter 10
+    config ssh
+    ssh authen
+        ssh-keygen
+        copy to remote
+    key management
+    
+ch 11 
+    networking
+        ip a
+        ip link
+        ip route
+        ss/netstat
+        nmcli
+        hostnamectl
+        DNS (resolv.conf)
+
+ch 12 
+    software manage
+        rpm
+        dnf
+
+Chapter 13
+    access files systems
+        manual mounting
+        fstab
+        lsblk
+    locate files on system
+        updatedb
+        locate
+        
+        easy options: 
+            name
+            user
+            uid
+            gid
+            
+        moderate
+            -perm
+            -type
+            -size
+            
+        difficult
+            modtime
+              mmin
+              atime?  
+    
+chapter 14
+    subscription
+    manage system from web console
+                   
+         
+
+
+
+
+
+
+
+
+
